@@ -12,5 +12,8 @@ random_name = random.randint(0, number_of_names - 1)
 
 buyer = names[random_name]
 
+#line below is a shorter way of writing this code
+#buyer = random.choice(names)  
+
 print(buyer + " is going to buy the meal today!")
 
